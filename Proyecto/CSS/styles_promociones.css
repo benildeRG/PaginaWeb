@@ -1,0 +1,59 @@
+body{
+    background-color: #292427 ;
+}
+
+
+.promocion{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.promocion__titulo{
+    color: #e5d2c2;
+    font-size: 60px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+
+.promocion__bloque--2x1 img{
+    width: 504px;
+    height: 266px;
+}
+
+.promocion__bloque--2x1 h2{
+    background-color:  #e5d2c2;
+    padding: 20px;
+    color: #000024;
+    border-radius: 15px;
+}
+
+.promocion__bloque--cumple img{
+    width: 300px;
+    height: 300px;
+}
+
+.promocion__bloque--cumple h2{
+    background-color:  #e5d2c2;
+    padding: 20px;
+    color: #000024;
+    border-radius: 15px;    
+}
+
+
+
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color:#000024 ;
+    display: flex;
+    justify-content: space-between;
+}

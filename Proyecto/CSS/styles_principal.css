@@ -1,0 +1,126 @@
+
+body{
+    background-color:#292427;
+    color:  #e5d2c2;
+    text-align: center;
+}
+.navegacion{  
+    display: flex;
+    place-items: center;
+    background-image: radial-gradient(circle at 51.51% 50%, #3b5b64 0, #3a585e 6.25%, #3a5457 12.5%, #3b4e4f 18.75%, #3b4847 25%, #3a4140 31.25%, #393939 37.5%, #363033 43.75%, #32272d 50%, #2d1e29 56.25%, #271726 62.5%, #201024 68.75%, #190924 75%, #100124 81.25%, #020024 87.5%, #000024 93.75%, #000024 100%);
+    background-color: rgb(216, 216, 165);
+    width: 100%;
+    height: 390px;
+
+  }
+  
+  .logo{
+    background-image: radial-gradient(circle at 51.51% 50%, #3b5b64 0, #3a585e 6.25%, #3a5457 12.5%, #3b4e4f 18.75%, #3b4847 25%, #3a4140 31.25%, #393939 37.5%, #363033 43.75%, #32272d 50%, #2d1e29 56.25%, #271726 62.5%, #201024 68.75%, #190924 75%, #100124 81.25%, #020024 87.5%, #000024 93.75%, #000024 100%);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border:#000024;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:cornsilk;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .tituloPrins{
+    font-size: 80px;
+  }
+
+  .botones{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(232, 232, 185);
+    text-decoration: none;
+  }
+  .botones:hover{
+    color:rgb(225, 232, 102);
+  }
+  
+  .main{
+    background-color:#000024;
+    padding: 20px;
+    margin: 100px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+
+    -webkit-box-shadow: -1px 1px 49px 24px rgba(0,0,0,0.65);
+    -moz-box-shadow: -1px 1px 49px 24px rgba(0,0,0,0.65);
+    box-shadow: -1px 1px 49px 24px rgba(0,0,0,0.65);
+
+  }
+  .servicio{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px;
+  }
+
+  .logo a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .servicio img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .servicio__bloque h3{
+    font-size: 30px;
+  }
+
+  .main h1{
+    font-weight: bold;
+  }
+
+  .main p{
+    font-size: 20px;
+  }
+
+  .main__img{
+    text-align: center;
+  }
+
+  .main__img img{
+    width: 300px;
+    height: 300px;
+  
+  }
+
+  .horario img{
+    width: 200px;
+    height: 200px;
+  }
+
+
+  .tabla th{
+    font-size: 20px;
+    background-color: #000024;
+    border-radius: 5px;
+  }
+
+  
+  .horario td{
+    border-radius: 5px;
+    padding: 30px;
+    background-color: black;
+  
+  }
+  .footer{
+    padding: 20px;
+    background-color:#000024 ;
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 

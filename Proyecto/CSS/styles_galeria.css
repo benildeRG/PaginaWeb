@@ -1,0 +1,54 @@
+body{
+    background-color: #292427 ;
+}
+
+.pais{
+    text-align: center;
+}
+
+.pais__comida--mexicana{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 150px;
+
+
+}
+
+.pais__comida--mexicana img{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+
+    -webkit-box-shadow: 22px -2px 94px 21px rgba(59,91,100,1);
+    -moz-box-shadow: 22px -2px 94px 21px rgba(59,91,100,1);
+    box-shadow: 22px -2px 94px 21px rgba(59,91,100,1);
+
+}
+
+.pais__comida{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.pais__comida img{
+    width: 300px;
+    height: 300px;   
+    border-radius: 40px;
+    -webkit-box-shadow: 22px -2px 94px 21px rgba(59,91,100,1);
+    -moz-box-shadow: 22px -2px 94px 21px rgba(59,91,100,1);
+    box-shadow: 22px -2px 94px 21px rgba(59,91,100,1);
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+

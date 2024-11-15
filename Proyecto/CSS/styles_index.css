@@ -1,0 +1,122 @@
+body{
+    background-color: #292427 ;
+    color:beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navegacion{           /* Alinearla en la parte superior */
+    display: flex;
+    place-items: center;
+    background-image: radial-gradient(circle at 51.51% 50%, #3b5b64 0, #3a585e 6.25%, #3a5457 12.5%, #3b4e4f 18.75%, #3b4847 25%, #3a4140 31.25%, #393939 37.5%, #363033 43.75%, #32272d 50%, #2d1e29 56.25%, #271726 62.5%, #201024 68.75%, #190924 75%, #100124 81.25%, #020024 87.5%, #000024 93.75%, #000024 100%);
+    background-color: rgb(216, 216, 165);
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .logo{
+    background-image: radial-gradient(circle at 51.51% 50%, #3b5b64 0, #3a585e 6.25%, #3a5457 12.5%, #3b4e4f 18.75%, #3b4847 25%, #3a4140 31.25%, #393939 37.5%, #363033 43.75%, #32272d 50%, #2d1e29 56.25%, #271726 62.5%, #201024 68.75%, #190924 75%, #100124 81.25%, #020024 87.5%, #000024 93.75%, #000024 100%);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border:#000024;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color:cornsilk;
+    overflow: hidden;
+    display: flex;
+    
+  }
+
+  .logo a{
+    text-decoration: none;
+    color: white;
+  }
+
+  
+  .botones{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(232, 232, 185);
+    text-decoration: none;
+
+  }
+  .botones:hover{
+    color:rgb(225, 232, 102);
+  }
+
+  .comidasDe{
+    font-size: 30px;
+    color: rgb(232, 232, 185);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+.contenedorMex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+.comidaPais{
+  color: #e5d2c2;
+}
+
+.bloque_comida{
+  text-align: center;
+}
+
+.bloque_comida--precio{
+  padding: 50px;
+  font-weight: bold;
+}
+.comidas{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    -webkit-box-shadow: 16px 10px 41px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 10px 41px 8px rgba(0,0,0,0.75);
+     box-shadow: 16px 10px 41px 8px rgba(0,0,0,0.75);
+}
+
+.imagengrande {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+  
+  .imagengrande img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+   #menu{
+    font-size: 60px;
+    color: beige;
+   }
+
+   .footer{
+    text-align: center;
+    padding: 20px;
+    background-color:#000024 ;
+    display: flex;
+    justify-content: space-between;
+  }
